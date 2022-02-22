@@ -1,0 +1,12 @@
+name: web
+dependencies:
+  - python=3
+  - pip
+  - ipython
+  - numpy
+  - matplotlib
+  - pip:
+    - pelican[markdown]
+    - invoke
+    - ghp-import
+    - livereload
